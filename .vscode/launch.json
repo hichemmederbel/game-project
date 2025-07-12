@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch SFML Game",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/game.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "externalConsole": true,
+      "preLaunchTask": "Build Game"
+    }
+  ]
+}
